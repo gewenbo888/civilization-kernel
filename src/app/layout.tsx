@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Civilization Kernel · 文明内核" }],
     title: TITLE_EN,
     description:
       "Civilization is an 8-layer stack. Each layer depends on the one below and programs the one above. When the bottom buckles, the top falls.",
@@ -35,6 +36,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: TITLE_EN,
     description: "Eight layers, one machine. Civilization runs like software.",
